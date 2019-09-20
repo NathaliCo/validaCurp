@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valida curp</title>
+</head>
+<body style = "text-align: center; background-color: #ccc; color: black;">
+        <h1>Escoja un archivo con extensión .txt para validar las curps, cada curp debe estar en una linea diferente para poder ser validada</h1>
+        <h3>Por cada curp se dará un diagnóstico sobre el error encontrado y al final de los resultados se podrá consultar el total de curps válidas e inválidas</h3>
+        <label for= "file">Selecciona tu archivo txt</label>
+        <input type="file" id="file-input" />
+        <h3 >Resultado archivo:</h3>
+        <pre id="contenido-archivo"></pre>
+        <section id = "showResults" style="background-color: rgb(24, 34, 43); color:blanchedalmond;">
+        </section>
+    <script src="validaCurp.js"></script>
+</body>
+</html>
